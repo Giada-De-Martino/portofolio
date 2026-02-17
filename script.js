@@ -1,6 +1,5 @@
 // --- Sections to load ---
 const sections = [
-    "sections/navbar.html",
     "sections/hero.html",
     "sections/about.html",
     "sections/skills.html",
