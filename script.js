@@ -10,10 +10,8 @@ const sections = [
 ];
 
 const content = document.getElementById("content");
-// Use the correct id for the language selector
 let languageSwitcher;
-
-let translations = {}; // Will hold loaded translations
+let translations = {};
 
 // --- Load translation file dynamically ---
 async function loadTranslations(lang) {
@@ -61,5 +59,4 @@ async function loadSections() {
     }
 }
 
-// --- Initialize ---
 loadSections();
