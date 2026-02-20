@@ -12,3 +12,10 @@ ISSUE url : https://github.com/storybookjs/storybook/issues/33856
 
 * Made a PR :
 PR url : https://github.com/storybookjs/storybook/pull/33858
+
+### FOR THE PORTFOLIO :
+to load the css run this :
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./src/output.css
+```
