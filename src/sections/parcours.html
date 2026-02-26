@@ -1,25 +1,75 @@
-<div id="parcours" class="flex items-center justify-center w-screen h-screen">
-  <div class="bg-light rounded-lg p-15 shadow-xl w-full max-w-2xl">
-    <h2 data-i18n="parcours.parcoursTitle">Professional Journey</h2>
+<div id="parcours" class="flex items-center justify-center w-screen min-h-screen py-20">
+    <div class="bg-light rounded-xl p-12 shadow-xl w-full max-w-4xl">
+    
+    <h2 class="text-3xl font-semibold text-center mb-16">
+      Professional Journey
+    </h2>
 
-    <div class="timeline">
+    <div class="relative">
 
-        <div class="timeline-item">
-            <h3 data-i18n="parcours.parcours2024">2024 - DevOps Engineer</h3>
-            <p data-i18n="parcours.parcours2024Company"> Company Name</p>
-            <p data-i18n="parcours.parcours2024Description">Cloud infrastructure, CI/CD pipelines, Kubernetes management.</p>
+      <!-- Vertical Line -->
+      <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-300"></div>
+
+      <!-- Item 1 -->
+      <div class="relative mb-12 flex justify-between items-center w-full">
+        
+        <div class="w-5/12 text-right pr-8">
+          <h3 class="text-lg font-semibold">
+            2024 - DevOps Engineer
+          </h3>
+          <p class="text-sm opacity-70">
+            Company Name
+          </p>
+          <p class="mt-2 text-sm">
+            Cloud infrastructure, CI/CD pipelines, Kubernetes management.
+          </p>
         </div>
 
-        <div class="timeline-item">
-            <h3 data-i18n="parcours.parcours2022">2022 - Master Degree in Computer Science</h3>
-            <p data-i18n="parcours.parcours2022University">University Name</p>
-            <p data-i18n="parcours.parcours2022Description">Specialized in Cloud Computing & Distributed Systems.</p>
+        <!-- Dot -->
+        <div class="z-10 flex items-center justify-center w-4 h-4 rounded-full bg-gray-600"></div>
+
+        <div class="w-5/12"></div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="relative mb-12 flex justify-between items-center w-full">
+        
+        <div class="w-5/12"></div>
+
+        <!-- Dot -->
+        <div class="z-10 flex items-center justify-center w-4 h-4 rounded-full bg-gray-600"></div>
+
+        <div class="w-5/12 pl-8">
+          <h3 class="text-lg font-semibold">
+            2022 - Master Degree in Computer Science
+          </h3>
+          <p class="text-sm opacity-70">
+            University Name
+          </p>
+          <p class="mt-2 text-sm">
+            Specialized in Cloud Computing & Distributed Systems.
+          </p>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="relative flex justify-between items-center w-full">
+        
+        <div class="w-5/12 text-right pr-8">
+          <h3 class="text-lg font-semibold">
+            2019 - Bachelor Degree
+          </h3>
+          <p class="text-sm opacity-70">
+            University Name
+          </p>
         </div>
 
-        <div class="timeline-item">
-            <h3 data-i18n="parcours.parcours2019">2019 - Bachelor Degree</h3>
-            <p data-i18n="parcours.parcours2019University">University Name</p>
-        </div>
+        <!-- Dot -->
+        <div class="z-10 flex items-center justify-center w-4 h-4 rounded-full bg-gray-600"></div>
+
+        <div class="w-5/12"></div>
+      </div>
 
     </div>
-</dive>
+  </div>
+</div>
